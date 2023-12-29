@@ -23,8 +23,8 @@ type
     Button5: TButton;
     Label5: TLabel;
     memoForIn: TMemo;
-    edtString: TEdit;
     procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -38,6 +38,7 @@ implementation
 
 {$R *.dfm}
 
+// Loop FOR
 procedure TForm1.Button1Click(Sender: TObject);
 var
 Count : Integer;
@@ -51,6 +52,22 @@ for Count := 0 to 20 do
     memoFor.Lines.Add(IntToStr(Count))
   end;
 
+end;
+
+// Loop WHILE
+procedure TForm1.Button2Click(Sender: TObject);
+var
+WCount : Integer;
+
+begin
+WCount := 0;
+memoWhile.Clear;
+
+while WCount <= 20 do
+  begin
+      inc(WCount);
+      memoWhile.Lines.Add(IntToStr(WCount))
+  end;
 end;
 
 end.

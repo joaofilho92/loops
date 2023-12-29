@@ -98,6 +98,7 @@ object Form1: TForm1
     Top = 16
     Width = 377
     Height = 161
+    ScrollBars = ssVertical
     TabOrder = 1
   end
   object Button2: TButton
@@ -113,12 +114,14 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 2
+    OnClick = Button2Click
   end
   object memoWhile: TMemo
     Left = 232
     Top = 224
     Width = 377
     Height = 161
+    ScrollBars = ssVertical
     TabOrder = 3
   end
   object Button3: TButton
@@ -140,6 +143,7 @@ object Form1: TForm1
     Top = 432
     Width = 377
     Height = 161
+    ScrollBars = ssVertical
     TabOrder = 5
   end
   object Button4: TButton
@@ -161,6 +165,7 @@ object Form1: TForm1
     Top = 16
     Width = 377
     Height = 161
+    ScrollBars = ssVertical
     TabOrder = 7
   end
   object Button5: TButton
@@ -182,13 +187,7 @@ object Form1: TForm1
     Top = 224
     Width = 377
     Height = 161
+    ScrollBars = ssVertical
     TabOrder = 9
-  end
-  object edtString: TEdit
-    Left = 80
-    Top = 136
-    Width = 73
-    Height = 23
-    TabOrder = 10
   end
 end
