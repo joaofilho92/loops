@@ -93,18 +93,21 @@ var
 numbCase : integer;
 begin
 
+if edtCase.Text = '' then
+begin
+  showMessage('Inserire uno valore')
+end;
+
 numbCase := strToInt(edtCase.Text);
 
 case numbCase of
-80..100 : Label6.Caption := 'A';
-70..79 : Label6.Caption := 'B';
-60..69 : Label6.Caption := 'C';
-50..59 : Label6.Caption := 'D';
-40..49 : Label6.Caption := 'E';
+80..100 : Label6.Caption := 'È tra 80 - 100';
+70..79 : Label6.Caption := 'È tra 70 - 79';
+60..69 : Label6.Caption := 'È tra 60 - 69';
+50..59 : Label6.Caption := 'È tra 50 - 59';
+40..49 : Label6.Caption := 'È tra 40 - 49';
 
 else Label6.Caption := 'Non è compreso tra i numeri da 40 a 100';
-
-
 end;
 
 
