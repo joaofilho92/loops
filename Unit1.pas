@@ -108,6 +108,7 @@ case numbCase of
 40..49 : Label6.Caption := 'È tra 40 - 49';
 
 else Label6.Caption := 'Non è compreso tra i numeri da 40 a 100';
+
 end;
 
 

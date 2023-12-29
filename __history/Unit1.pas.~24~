@@ -19,13 +19,15 @@ type
     Label3: TLabel;
     Label4: TLabel;
     Button4: TButton;
-    memoCase: TMemo;
     Button5: TButton;
     Label5: TLabel;
     memoForIn: TMemo;
+    Label6: TLabel;
+    edtCase: TEdit;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -83,6 +85,34 @@ repeat
    inc(WCount2);
    memoRepeat.Lines.Add(IntToStr(WCount2))
 until (WCount2 = 20);
+end;
+
+// Loop CASE
+procedure TForm1.Button4Click(Sender: TObject);
+var
+numbCase : integer;
+begin
+
+if edtCase.Text = '' then
+begin
+  showMessage('Inserire uno valore')
+end;
+
+numbCase := strToInt(edtCase.Text);
+
+case numbCase of
+80..100 : Label6.Caption := 'È tra 80 - 100';
+70..79 : Label6.Caption := 'È tra 70 - 79';
+60..69 : Label6.Caption := 'È tra 60 - 69';
+50..59 : Label6.Caption := 'È tra 50 - 59';
+40..49 : Label6.Caption := 'È tra 40 - 49';
+
+else Label6.Caption := 'Non è compreso tra i numeri da 40 a 100';
+end;
+
+
+
+
 
 end;
 
