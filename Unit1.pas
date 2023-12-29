@@ -9,20 +9,22 @@ uses
 type
   TForm1 = class(TForm)
     Button1: TButton;
-    Memo1: TMemo;
+    memoFor: TMemo;
     Button2: TButton;
-    Memo2: TMemo;
+    memoWhile: TMemo;
     Button3: TButton;
-    Memo3: TMemo;
+    memoRepeat: TMemo;
     Label1: TLabel;
     Label2: TLabel;
     Label3: TLabel;
     Label4: TLabel;
     Button4: TButton;
-    Memo4: TMemo;
+    memoCase: TMemo;
     Button5: TButton;
     Label5: TLabel;
-    Memo5: TMemo;
+    memoForIn: TMemo;
+    edtString: TEdit;
+    procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -35,5 +37,20 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+Count : Integer;
+
+begin
+Count := 0;
+memoFor.Clear;
+
+for Count := 0 to 20 do
+  begin
+    memoFor.Lines.Add(IntToStr(Count))
+  end;
+
+end;
 
 end.

@@ -2,7 +2,7 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 750
+  ClientHeight = 636
   ClientWidth = 1276
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -10,6 +10,8 @@ object Form1: TForm1
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  Position = poScreenCenter
+  WindowState = wsMaximized
   TextHeight = 15
   object Label1: TLabel
     Left = 96
@@ -39,7 +41,7 @@ object Form1: TForm1
   end
   object Label3: TLabel
     Left = 56
-    Top = 473
+    Top = 465
     Width = 115
     Height = 25
     Caption = 'Repeat...Until'
@@ -82,15 +84,20 @@ object Form1: TForm1
     Width = 137
     Height = 49
     Caption = 'Eseguire'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Segoe UI Semibold'
+    Font.Style = [fsBold]
+    ParentFont = False
     TabOrder = 0
+    OnClick = Button1Click
   end
-  object Memo1: TMemo
+  object memoFor: TMemo
     Left = 232
     Top = 16
     Width = 377
     Height = 161
-    Lines.Strings = (
-      'Memo1')
     TabOrder = 1
   end
   object Button2: TButton
@@ -99,32 +106,40 @@ object Form1: TForm1
     Width = 137
     Height = 49
     Caption = 'Eseguire'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Segoe UI Semibold'
+    Font.Style = [fsBold]
+    ParentFont = False
     TabOrder = 2
   end
-  object Memo2: TMemo
+  object memoWhile: TMemo
     Left = 232
     Top = 224
     Width = 377
     Height = 161
-    Lines.Strings = (
-      'Memo1')
     TabOrder = 3
   end
   object Button3: TButton
     Left = 48
-    Top = 504
+    Top = 496
     Width = 137
     Height = 49
     Caption = 'Eseguire'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Segoe UI Semibold'
+    Font.Style = [fsBold]
+    ParentFont = False
     TabOrder = 4
   end
-  object Memo3: TMemo
+  object memoRepeat: TMemo
     Left = 232
-    Top = 456
+    Top = 432
     Width = 377
     Height = 161
-    Lines.Strings = (
-      'Memo1')
     TabOrder = 5
   end
   object Button4: TButton
@@ -133,15 +148,19 @@ object Form1: TForm1
     Width = 137
     Height = 49
     Caption = 'Eseguire'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Segoe UI Semibold'
+    Font.Style = [fsBold]
+    ParentFont = False
     TabOrder = 6
   end
-  object Memo4: TMemo
+  object memoCase: TMemo
     Left = 848
     Top = 16
     Width = 377
     Height = 161
-    Lines.Strings = (
-      'Memo1')
     TabOrder = 7
   end
   object Button5: TButton
@@ -150,15 +169,26 @@ object Form1: TForm1
     Width = 137
     Height = 49
     Caption = 'Eseguire'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Segoe UI Semibold'
+    Font.Style = [fsBold]
+    ParentFont = False
     TabOrder = 8
   end
-  object Memo5: TMemo
+  object memoForIn: TMemo
     Left = 848
     Top = 224
     Width = 377
     Height = 161
-    Lines.Strings = (
-      'Memo1')
     TabOrder = 9
+  end
+  object edtString: TEdit
+    Left = 80
+    Top = 136
+    Width = 73
+    Height = 23
+    TabOrder = 10
   end
 end
