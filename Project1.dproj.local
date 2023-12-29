@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2023/12/28 22:01:38.516,=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/12/28 22:11:26.282,C:\Users\Joao\Desktop\Dev\Projetos\Projetos Delphi\Loop\Unit1.pas=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/12/28 22:11:26.282,C:\Users\Joao\Desktop\Dev\Projetos\Projetos Delphi\Loop\Unit1.dfm=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2023/12/28 22:11:28.544,C:\Users\Joao\Desktop\Dev\Projetos\Projetos Delphi\Loop\Project1.dproj=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+	<Transactions>
+    <Transaction>2023/12/28 22:01:38.000.516,=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/28 22:11:26.000.282,C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Joao\Desktop\Dev\Projetos\Projetos Delphi\Loop\Unit1.pas</Transaction>
+    <Transaction>2023/12/28 22:11:26.000.282,C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Joao\Desktop\Dev\Projetos\Projetos Delphi\Loop\Unit1.dfm</Transaction>
+    <Transaction>2023/12/28 22:11:28.000.544,C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Joao\Desktop\Dev\Projetos\Projetos Delphi\Loop\Project1.dproj</Transaction>
   </Transactions>
 </BorlandProject>
