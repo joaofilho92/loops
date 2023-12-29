@@ -25,6 +25,7 @@ type
     memoForIn: TMemo;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -68,6 +69,21 @@ while WCount <= 20 do
       inc(WCount);
       memoWhile.Lines.Add(IntToStr(WCount))
   end;
+end;
+
+// Loop REPEAT UNTIL
+procedure TForm1.Button3Click(Sender: TObject);
+var
+WCount2 : Integer;
+begin
+WCount2 := 0;
+memoRepeat.Clear;
+
+repeat
+   inc(WCount2);
+   memoRepeat.Lines.Add(IntToStr(WCount2))
+until (WCount2 = 20);
+
 end;
 
 end.

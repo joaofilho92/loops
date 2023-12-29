@@ -137,6 +137,7 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 4
+    OnClick = Button3Click
   end
   object memoRepeat: TMemo
     Left = 232
