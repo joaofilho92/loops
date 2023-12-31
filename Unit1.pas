@@ -111,10 +111,6 @@ else Label6.Caption := 'Non è compreso tra i numeri da 40 a 100';
 
 end;
 
-
-
-
-
 end;
 
 end.
