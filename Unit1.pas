@@ -19,9 +19,6 @@ type
     Label3: TLabel;
     Label4: TLabel;
     Button4: TButton;
-    Button5: TButton;
-    Label5: TLabel;
-    memoForIn: TMemo;
     Label6: TLabel;
     edtCase: TEdit;
     procedure Button1Click(Sender: TObject);

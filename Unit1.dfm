@@ -65,19 +65,6 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
   end
-  object Label5: TLabel
-    Left = 704
-    Top = 249
-    Width = 50
-    Height = 25
-    Caption = 'For In'
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -19
-    Font.Name = 'Segoe UI Semibold'
-    Font.Style = [fsBold]
-    ParentFont = False
-  end
   object Label6: TLabel
     Left = 848
     Top = 101
@@ -175,33 +162,11 @@ object Form1: TForm1
     TabOrder = 6
     OnClick = Button4Click
   end
-  object Button5: TButton
-    Left = 664
-    Top = 280
-    Width = 137
-    Height = 49
-    Caption = 'Eseguire'
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -12
-    Font.Name = 'Segoe UI Semibold'
-    Font.Style = [fsBold]
-    ParentFont = False
-    TabOrder = 7
-  end
-  object memoForIn: TMemo
-    Left = 848
-    Top = 224
-    Width = 377
-    Height = 161
-    ScrollBars = ssVertical
-    TabOrder = 8
-  end
   object edtCase: TEdit
     Left = 848
     Top = 72
     Width = 209
     Height = 23
-    TabOrder = 9
+    TabOrder = 7
   end
 end
